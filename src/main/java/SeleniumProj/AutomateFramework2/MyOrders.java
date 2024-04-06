@@ -20,7 +20,7 @@ public class MyOrders
 List<WebElement> orderslist;
 @FindBy(css="button[routerlink*='myorders']")
 WebElement myOrder;
-
+//
 public void verifyOrders(String productName)
 {
 	myOrder.click();
