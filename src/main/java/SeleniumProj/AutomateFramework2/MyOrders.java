@@ -28,7 +28,7 @@ public void verifyOrders(String productName)
 	{
 	  if(o.getText().equalsIgnoreCase(productName))
 	  {
-		  Assert.fail();
+		//  Assert.fail();
 		  System.out.println("Order Verified");
 		  break;
 	  }
