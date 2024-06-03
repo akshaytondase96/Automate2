@@ -29,7 +29,7 @@ public void verifyOrders(String productName)
 	  if(o.getText().equalsIgnoreCase(productName))
 	  {
 		//  Assert.fail();
-		  System.out.println("Order Verified");
+		  System.out.println("Order Verified.");
 		  break;
 	  }
 	}
