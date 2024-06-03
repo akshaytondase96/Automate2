@@ -10,7 +10,6 @@
         <methods>
           <include name="initializeDriver"/>
           <include name="ErrorValidation2"/>
-          <include name="viewOrders"/>
         </methods>
       </class> <!-- SeleniumProj.AutomateFramework2.OrderHistory -->
       <class name="SeleniumProj.AutomateFramework2.SubmitOrder">

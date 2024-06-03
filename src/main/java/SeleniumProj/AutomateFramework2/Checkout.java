@@ -32,6 +32,7 @@ WebElement selectCountry;
 WebElement placeOrder;
 public void checkout(String counrtyName)
 {
+	
 	checkot.click();	
 	countryField.sendKeys(counrtyName);
 	waitForVisibilityOfElement1(countryList);

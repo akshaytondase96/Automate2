@@ -15,6 +15,6 @@ public class OrderHistory extends BaseTest
 	public void ErrorValidation2()
 	{
 		loginpage.loginApplication(prop.getProperty("url"),prop.getProperty("username"),prop.getProperty("password"));
-		Assert.assertEquals(loginpage.errorMessage(), "Login Successfully#");
+		Assert.assertEquals(loginpage.errorMessage(), "Login Successfully,");
 	}
 }

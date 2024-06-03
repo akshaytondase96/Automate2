@@ -5,7 +5,6 @@
     <classes>
       <class name="SeleniumProj.AutomateFramework2.SubmitOrder">
         <methods>
-          <include name="submitorder"/>
           <include name="initializeDriver"/>
           <include name="ErrorValidation"/>
         </methods>
