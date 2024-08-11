@@ -29,7 +29,7 @@ public class Listeners extends BaseTest implements ITestListener
 	{
 		System.out.println("Test Passes");
 		extentTest.get().log(Status.PASS, "Passed");	
-		}
+	}
 
 	@Override
 	public void onTestFailure(ITestResult result) 

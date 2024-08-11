@@ -6,19 +6,19 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="SeleniumProj.AutomateFramework2.SubmitOrder">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="submitorder"/>
+          <include name="ErrorValidation"/>
+        </methods>
+      </class> <!-- SeleniumProj.AutomateFramework2.SubmitOrder -->
       <class name="SeleniumProj.AutomateFramework2.OrderHistory">
         <methods>
           <include name="initializeDriver"/>
           <include name="ErrorValidation2"/>
-          <include name="viewOrders"/>
         </methods>
       </class> <!-- SeleniumProj.AutomateFramework2.OrderHistory -->
-      <class name="SeleniumProj.AutomateFramework2.SubmitOrder">
-        <methods>
-          <include name="initializeDriver"/>
-          <include name="ErrorValidation"/>
-        </methods>
-      </class> <!-- SeleniumProj.AutomateFramework2.SubmitOrder -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
