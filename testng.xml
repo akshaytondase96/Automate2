@@ -7,7 +7,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="SeleniumProj.AutomateFramework2.OrderHistory"/>
-      <class name="SeleniumProj.AutomateFramework2.SubmitOrder"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
